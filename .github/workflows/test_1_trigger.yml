@@ -15,5 +15,4 @@ jobs:
         with:
           repository: cka-y/test2
           event-type: test1-push-event
-          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
 
